@@ -234,6 +234,7 @@ $background-color: #3D3D3D;
 
 @include media("screen", "<=tablet") {
     .sidenav {
+        width: 100%;
         .bars {
             .icon{
                 width: 2rem;
