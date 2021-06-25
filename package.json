@@ -7,7 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "heroku-postbuild": "npm run build",
+    "test": "jest",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.5",
@@ -27,6 +29,7 @@
     "babel-jest": "^26.6.3",
     "fibers": "^5.0.0",
     "jest": "^26.6.3",
+    "push-dir": "^0.4.1",
     "sass": "^1.32.13",
     "sass-loader": "^10.2.0",
     "vue-jest": "^3.0.4"

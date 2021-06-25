@@ -46,12 +46,16 @@ export default {
   build: {
   },
 
-  // define linstenig port
+  // define listening port
   server: {
     port: process.env.PORT
   },
 
   vuetify: {
     defaultAssets: {icons: 'fa'}
+  },
+  target: 'static',
+  router: {
+    base: '/henrjan-myporto/'
   }
 }
