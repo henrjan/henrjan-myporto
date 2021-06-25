@@ -326,8 +326,8 @@ $font-weight: 500;
                 }
             }
             .phone-img {
-                margin-left: 0.75rem;
-                width: 25rem;
+                // margin-left: 0.75rem;
+                width: 20rem;
             }
         }
     }
