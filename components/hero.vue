@@ -70,6 +70,7 @@ export default {
     .container {
         height: 100%;
         max-width: $container-width;
+        padding-top: 0.25rem;
 
         background-image: url("~/assets/hero-img.png");
         background-size: 65rem;
