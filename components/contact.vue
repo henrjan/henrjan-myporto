@@ -368,21 +368,21 @@ export default {
   .contact {
     &-info{
       .inquiry{
-        width: 25rem;
+        width: 20rem;
         max-width: 25rem;
         .form {
           .sender-info{
             .name{
-              width: 25rem;
+              width: 20rem;
             }
             .email{
-              width: 25rem;
+              width: 20rem;
             }
           }
         }
       }
       .info {
-        max-width: 22.5rem;
+        max-width: 20rem;
         max-width: 100%;
         padding: 1rem 1rem;
       }
