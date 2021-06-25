@@ -167,6 +167,7 @@ export default {
         .container {
             .section {
                 padding: 0 1.5rem;
+                padding-top: 6.25rem;
             }
         }
     }

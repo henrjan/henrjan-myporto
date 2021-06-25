@@ -245,7 +245,7 @@ $background-color: #3D3D3D;
 @include media("screen", "<=phone") {
     .sidenav {
         .navbar {
-            width: 100%;
+            // width: 100%;
             margin-left: -100%;
         }
     }
