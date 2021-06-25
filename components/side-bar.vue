@@ -176,6 +176,7 @@ $background-color: #3D3D3D;
 
 @include media("screen", "<=desktop") {
     .sidenav {
+        max-width: 64rem;
         width: fit-content;
         // height: fit-content;
         &.show {
@@ -234,7 +235,7 @@ $background-color: #3D3D3D;
 
 @include media("screen", "<=tablet") {
     .sidenav {
-        width: 100%;
+        max-width: 48rem;
         .bars {
             .icon{
                 width: 2rem;
@@ -245,6 +246,7 @@ $background-color: #3D3D3D;
 
 @include media("screen", "<=phone") {
     .sidenav {
+        max-width: 30rem;
         .navbar {
             // width: 100%;
             margin-left: -100%;

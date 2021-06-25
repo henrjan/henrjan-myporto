@@ -151,7 +151,7 @@ export default {
             margin: 0;
             padding: 0;
             background-size: 60rem;
-            background-position: top 20rem right -16rem;
+            background-position: top 20rem right -20rem;
             .section {
                 width: 100%;
                 margin: 0;
@@ -167,7 +167,7 @@ export default {
         .container {
             .section {
                 padding: 0 1.5rem;
-                padding-top: 6.25rem;
+                padding-top: 8rem;
             }
         }
     }
