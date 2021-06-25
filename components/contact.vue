@@ -369,7 +369,7 @@ export default {
     &-info{
       .inquiry{
         width: 20rem;
-        max-width: 25rem;
+        max-width: 20rem;
         .form {
           .sender-info{
             .name{
