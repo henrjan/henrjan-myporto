@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002Fhenrjan-myporto\u002F_nuxt\u002Fstatic\u002F1624769664",layout:"default",error:a,state:{navTarget:b,navScroll:b},serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"\u002Fhenrjan-myporto\u002F",assetsPath:"\u002Fhenrjan-myporto\u002F_nuxt\u002F",cdnURL:a}},globalRefs:{}}}(null,"home"));
