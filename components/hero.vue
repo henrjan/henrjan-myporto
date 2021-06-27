@@ -3,9 +3,8 @@
         <div class="container">
             <div class="section">
                 <h1>Hi, I'm Henry</h1>
-                <p class="sub-title">Back End and Front End Developer</p>
                 <p class="description">
-                    I am Back-End and Front-End Developer currently based in Jakarta, Indonesia. I have passionate in building automated, robust, and reliable system. I like to code clean and simple and also prioritize performance and speed.
+                    I am IT Back-End Developer currently based in Jakarta, Indonesia. I am specialized in building automated and robust server-side applications. My priority is performance and speed, i enjoy writing clean, elegant and efficient code.
                 </p>
                 <button class="btn">Get in touch</button>
             </div>
@@ -64,7 +63,7 @@ export default {
     // padding-left: 150px;
     width: 100%;
     background-color: #F27878;
-    height: 800px;
+    height: 50rem;
     z-index: 0;
     
     .container {
@@ -79,28 +78,29 @@ export default {
             z-index: 100;
             text-align: left;
             width: 50%;
-            min-width: 400px;
+            max-width: 31.25rem;
+            min-width: 18.75rem;
             margin-top: 12.5rem;
             margin-left: 5rem;
             h1 {
-                font-size: 40px;
-                margin-bottom: 10px;
+                font-size: 44px;
+                margin-bottom: 1rem;
             }
-            .sub-title {
-                font-size: 28px;
-                font-weight: 500;
-                margin-bottom: 20px;
-            }
+            // .sub-title {
+            //     font-size: 28px;
+            //     font-weight: 500;
+            //     margin-bottom: 20px;
+            // }
             .description {
-                font-size: 20px;
-                margin-bottom: 28px;
+                font-size: 1.5rem;
+                margin-bottom: 1.75rem;
             }
             .btn {
                 color: #FFFFFF;
-                font-size: 20px;
+                font-size: 1.5rem;
                 font-weight: 500;
-                padding: 16px 28px;
-                width: 200px;
+                padding: 1rem 1.75rem;
+                width: 16rem;
                 background-color: #CF4040;
                 border: none;
             }
