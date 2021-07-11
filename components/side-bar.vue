@@ -94,7 +94,7 @@ export default {
 <style lang="scss">
 @import "include-media";
 @import '~/assets/scss/variables';
-$font-size: 1.25rem;
+$font-size: 1rem;
 $width: 10rem;
 $img-width: 5rem;
 $background-color: #3D3D3D;
@@ -144,9 +144,10 @@ $background-color: #3D3D3D;
                 z-index: 100;
 
                 padding: 1rem 0;
-                padding-left: 2.75rem;
+                padding-left: 3.25rem;
                 display: block;
                 font-size: $font-size;
+                font-weight: 600;
                 color: #FFFFFF;
                 text-decoration: none;
 

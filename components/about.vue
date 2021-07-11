@@ -108,7 +108,7 @@ $font-weight: 500;
         height: 100%;
         max-width: $container-width;
         padding: 0 2.5rem;
-
+        overflow: hidden;
         p {
             text-align: center;
             max-width: 62.5rem;
@@ -326,8 +326,8 @@ $font-weight: 500;
                 }
             }
             .phone-img {
-                margin-left: 1.25rem;
-                width: 25rem;
+                margin-left: 0.5rem;
+                width: 20rem;
             }
         }
     }
