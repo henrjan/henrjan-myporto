@@ -3,9 +3,8 @@
         <div class="container">
             <div class="section">
                 <h1>Hi, I'm Henry</h1>
-                <p class="sub-title">Back End and Front End Developer</p>
                 <p class="description">
-                    I am Back-End and Front-End Developer currently based in Jakarta, Indonesia. I have passionate in building automated, robust, and reliable system. I like to code clean and simple and also prioritize performance and speed.
+                    I am IT Back-End Developer currently based in Jakarta, Indonesia. I am specialized in building automated and robust server-side applications. My priority is performance and speed, i enjoy writing clean, elegant and efficient code.
                 </p>
                 <button class="btn">Get in touch</button>
             </div>
@@ -64,62 +63,55 @@ export default {
     // padding-left: 150px;
     width: 100%;
     background-color: #F27878;
-    height: 800px;
+    height: 37.5rem;
     z-index: 0;
     
     .container {
         height: 100%;
         max-width: $container-width;
+        padding-top: 0.25rem;
 
         background-image: url("~/assets/hero-img.png");
-        background-size: 65rem;
-        background-position: top -1rem right -14rem;
+        background-size: 55rem;
+        background-position: top -1.5rem right -12.5rem;
         .section {
             z-index: 100;
             text-align: left;
             width: 50%;
-            min-width: 400px;
-            margin-top: 12.5rem;
-            margin-left: 5rem;
+            max-width: 31.25rem;
+            min-width: 18.75rem;
+            margin-top: 10rem;
+            margin-left: 2.5rem;
             h1 {
-                font-size: 40px;
-                margin-bottom: 10px;
+                font-size: 44px;
+                margin-bottom: 1rem;
             }
-            .sub-title {
-                font-size: 28px;
-                font-weight: 500;
-                margin-bottom: 20px;
-            }
+            // .sub-title {
+            //     font-size: 28px;
+            //     font-weight: 500;
+            //     margin-bottom: 20px;
+            // }
             .description {
-                font-size: 20px;
-                margin-bottom: 28px;
+                font-size: 1.25rem;
+                margin-bottom: 1.75rem;
             }
             .btn {
                 color: #FFFFFF;
-                font-size: 20px;
+                font-size: 1.25rem;
                 font-weight: 500;
-                padding: 16px 28px;
-                width: 200px;
+                padding: 1rem 1.75rem;
+                width: 16rem;
                 background-color: #CF4040;
                 border: none;
             }
         }
-        /* .hero-img{
-            z-index: 0;
-            display: block;
-            position: absolute;
-            width: 65rem;
-
-            right: -50px;
-            margin-top: -30px;
-        } */
     }
 }
 
 @include media("screen", "<=desktop-lg") {
     .hero {
         .container {
-            background-position: top -2rem right -20rem;
+            background-position: top -1.5rem right -16rem;
         }
     }
 }
@@ -127,7 +119,7 @@ export default {
 @include media("screen", "<=desktop-md") {
     .hero {
         .container {
-            background-position: top -2rem right -28rem;
+            background-position: top -1.5rem right -24rem;
             .section {
                 margin-left: 2.5rem;
             }
@@ -138,18 +130,18 @@ export default {
 @include media("screen", "<=desktop") {
     .hero {
         .container {
-            background-position: top 6rem right -28rem;
+            background-position: top -1.5rem right -28rem;
         }
     }
 }
 
 @include media("screen", "<=tablet") {
     .hero {
-        height: 60rem;
+        height: 55rem;
         .container {
             margin: 0;
             padding: 0;
-            background-size: 60rem;
+            background-size: 55rem;
             background-position: top 20rem right -16rem;
             .section {
                 width: 100%;
@@ -164,8 +156,11 @@ export default {
 @include media("screen", "<=phone") {
     .hero {
         .container {
+            background-size: 45rem;
+            background-position: top 17.5rem right -16rem;
             .section {
                 padding: 0 1.5rem;
+                padding-top: 7.5rem;
             }
         }
     }

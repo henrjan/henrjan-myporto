@@ -94,9 +94,9 @@ export default {
 <style lang="scss">
 @import "include-media";
 @import '~/assets/scss/variables';
-$font-size: 1.5rem;
-$width: 12.5rem;
-$img-width: 6.25rem;
+$font-size: 1.25rem;
+$width: 10rem;
+$img-width: 5rem;
 $background-color: #3D3D3D;
 
 
@@ -128,12 +128,12 @@ $background-color: #3D3D3D;
             display: none;
         }
         .logo {
-            height: 16rem;
+            height: 12.5rem;
             img {
                 display: block;
                 width: $img-width;
                 margin: auto;
-                padding-top: 6.25rem;
+                padding-top: 4.5rem;
             }
         }
 
@@ -143,8 +143,8 @@ $background-color: #3D3D3D;
                 position: relative;
                 z-index: 100;
 
-                padding: 1.25rem 0;
-                padding-left: 3.75rem;
+                padding: 1rem 0;
+                padding-left: 2.75rem;
                 display: block;
                 font-size: $font-size;
                 color: #FFFFFF;
@@ -176,6 +176,7 @@ $background-color: #3D3D3D;
 
 @include media("screen", "<=desktop") {
     .sidenav {
+        max-width: 64rem;
         width: fit-content;
         // height: fit-content;
         &.show {
@@ -234,6 +235,7 @@ $background-color: #3D3D3D;
 
 @include media("screen", "<=tablet") {
     .sidenav {
+        max-width: 48rem;
         .bars {
             .icon{
                 width: 2rem;
@@ -244,8 +246,9 @@ $background-color: #3D3D3D;
 
 @include media("screen", "<=phone") {
     .sidenav {
+        max-width: 30rem;
         .navbar {
-            width: 100%;
+            // width: 100%;
             margin-left: -100%;
         }
     }

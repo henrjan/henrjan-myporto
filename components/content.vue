@@ -83,8 +83,8 @@ export default {
     @include media("screen", ">=tablet") {
         margin-left: 0;
     }
-    @include media("screen", ">=desktop") {
-        margin-left: 200px;
+    @include media("screen", ">desktop") {
+        margin-left: 10rem;
     }
     /* padding-left: 150px; */
 }
